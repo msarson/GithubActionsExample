@@ -1,8 +1,17 @@
-The yaml file you generate will go into your dev repository in a directory called .github\workflows
+This repository contains an example YML file (pronounced YAML) for build processes needed to generate your builds of a
+Clarion Application. 
 
-YML files are very specific as to where the columns of each line should be, so please follow the example.
 
+There are various steps here that can be removed if not required. I am using UpperPark source control from Rick Martin
+as part of this eample.
+
+**Things you will need to do and take note of**
+* You will need a private repository that contains the build of clarion you want to use.
+* The yaml file you generate will go into your dev repository in a directory called .github\workflows
+* YML files are very specific as to where the columns of each line should be, so please follow the example.
 **NOTE** GITHUB_SECRET is a Personal Access Token you create, and add to the dev repository, name however you want.
+
+I will eventuall give a more detailed breakdown.
 ```yaml
 name: Clarion Build
 
