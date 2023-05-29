@@ -26,10 +26,10 @@ jobs:
       - name: Pull from Private Repository
         uses: actions/checkout@v3
         with:
-          repository: msarson/Clarion11-DevMachine
+          repository: username/ClarionRepositoryName
           path: clarion
           ref: master
-          token: ${{ secrets.MARK_SECRET }}
+          token: ${{ secrets.GITHUBSECRET }}
           lfs: true
 
       - name: Modify ClarionProperties.xml

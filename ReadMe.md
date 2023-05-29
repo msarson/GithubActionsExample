@@ -26,13 +26,13 @@ jobs:
           lfs: true
 
       - name: Pull from Private Repository
-        # Pull code from a private repository into the 'clarion' directory
+        # Pull clarion from a private repository into the 'clarion' directory
         uses: actions/checkout@v3
         with:
-          repository: msarson/Clarion11-DevMachine
+          repository: username/RepositoryName
           path: clarion
           ref: master
-          token: ${{ secrets.MARK_SECRET }}
+          token: ${{ secrets.GITHUB_SECRET }}
           lfs: true
 
       - name: Modify ClarionProperties.xml
