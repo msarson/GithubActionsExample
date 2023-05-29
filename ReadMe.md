@@ -1,6 +1,8 @@
 The yaml file you generate will go into your dev repository in a directory called .github\workflows
 
-YML files are very specific as to where the columns of each line should be, so please follow the example
+YML files are very specific as to where the columns of each line should be, so please follow the example.
+
+**NOTE** GITHUB_SECRET is a Personal Access Token you create, and add to the dev repository, name however you want.
 ```yaml
 name: Clarion Build
 
