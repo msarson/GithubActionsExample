@@ -1,3 +1,6 @@
+The yaml file you generate will go into your dev repository in a directory called .github\workflows
+
+YML files are very specific as to where the columns of each line should be, so please follow the example
 ```yaml
 name: Clarion Build
 
@@ -5,6 +8,7 @@ on:
   push:
     branches:
       # Branches that this action will run, probably not a good idea on master :)
+      # You can list as many as you like with the - seperator. 
       - master
 
 jobs:
