@@ -1,6 +1,5 @@
 ```yaml
 name: Clarion Build
-name: Clarion Build
 
 on:
   push:
